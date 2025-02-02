@@ -1,0 +1,5 @@
+is_global = true
+build_property.RootNamespace = MyApp.ControllersApi.Test
+build_property.ProjectDir = /home/smumo/Projects/stockapp/stockapp.africa/StockappAPI/src/Tests/MyApp.ControllersApi.Test/
+build_property.EnableComHosting = 
+build_property.EnableGeneratedComInterfaceComImportInterop = 

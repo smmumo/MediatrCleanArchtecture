@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "hCI/0zMKJ5nPEec7FcrjVPH3UcQRIWnzCQ+FpDxkWYLAP77AWae2WQ97i31aLoUynfv1uGMiIHV8QaxmLJ5yxw==",
+  "success": true,
+  "projectFilePath": "/home/smumo/Projects/stockapp/stockapp.africa/LearnCleanArchtecture/StockApp.Domain/StockApp.Domain.csproj",
+  "expectedPackageFiles": [
+    "/home/smumo/.nuget/packages/erroror/2.0.1/erroror.2.0.1.nupkg.sha512",
+    "/home/smumo/.nuget/packages/mediatr.contracts/2.0.1/mediatr.contracts.2.0.1.nupkg.sha512"
+  ],
+  "logs": []
+}

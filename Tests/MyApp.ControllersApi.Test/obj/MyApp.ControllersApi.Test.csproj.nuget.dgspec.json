@@ -1,0 +1,481 @@
+{
+  "format": 1,
+  "restore": {
+    "/home/smumo/Projects/stockapp/stockapp.africa/LearnCleanArchtecture/Tests/MyApp.ControllersApi.Test/MyApp.ControllersApi.Test.csproj": {}
+  },
+  "projects": {
+    "/home/smumo/Projects/stockapp/stockapp.africa/LearnCleanArchtecture/StockApp.Api/StockApp.Api.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/home/smumo/Projects/stockapp/stockapp.africa/LearnCleanArchtecture/StockApp.Api/StockApp.Api.csproj",
+        "projectName": "StockApp.Api",
+        "projectPath": "/home/smumo/Projects/stockapp/stockapp.africa/LearnCleanArchtecture/StockApp.Api/StockApp.Api.csproj",
+        "packagesPath": "/home/smumo/.nuget/packages/",
+        "outputPath": "/home/smumo/Projects/stockapp/stockapp.africa/LearnCleanArchtecture/StockApp.Api/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/home/smumo/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "/home/smumo/Projects/stockapp/stockapp.africa/LearnCleanArchtecture/StockApp.Application/StockApp.Application.csproj": {
+                "projectPath": "/home/smumo/Projects/stockapp/stockapp.africa/LearnCleanArchtecture/StockApp.Application/StockApp.Application.csproj"
+              },
+              "/home/smumo/Projects/stockapp/stockapp.africa/LearnCleanArchtecture/StockApp.Contracts/StockApp.Contracts.csproj": {
+                "projectPath": "/home/smumo/Projects/stockapp/stockapp.africa/LearnCleanArchtecture/StockApp.Contracts/StockApp.Contracts.csproj"
+              },
+              "/home/smumo/Projects/stockapp/stockapp.africa/LearnCleanArchtecture/StockApp.Infrastructure/StockApp.Infrastructure.csproj": {
+                "projectPath": "/home/smumo/Projects/stockapp/stockapp.africa/LearnCleanArchtecture/StockApp.Infrastructure/StockApp.Infrastructure.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "Microsoft.AspNetCore.OpenApi": {
+              "target": "Package",
+              "version": "[8.0.3, )"
+            },
+            "Swashbuckle.AspNetCore": {
+              "target": "Package",
+              "version": "[6.4.0, )"
+            },
+            "mapster": {
+              "target": "Package",
+              "version": "[7.4.0, )"
+            },
+            "mapster.DependencyInjection": {
+              "target": "Package",
+              "version": "[1.0.1, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/lib/dotnet/sdk/8.0.110/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/home/smumo/Projects/stockapp/stockapp.africa/LearnCleanArchtecture/StockApp.Application/StockApp.Application.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/home/smumo/Projects/stockapp/stockapp.africa/LearnCleanArchtecture/StockApp.Application/StockApp.Application.csproj",
+        "projectName": "StockApp.Application",
+        "projectPath": "/home/smumo/Projects/stockapp/stockapp.africa/LearnCleanArchtecture/StockApp.Application/StockApp.Application.csproj",
+        "packagesPath": "/home/smumo/.nuget/packages/",
+        "outputPath": "/home/smumo/Projects/stockapp/stockapp.africa/LearnCleanArchtecture/StockApp.Application/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/home/smumo/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "/home/smumo/Projects/stockapp/stockapp.africa/LearnCleanArchtecture/StockApp.Domain/StockApp.Domain.csproj": {
+                "projectPath": "/home/smumo/Projects/stockapp/stockapp.africa/LearnCleanArchtecture/StockApp.Domain/StockApp.Domain.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "ErrorOr": {
+              "target": "Package",
+              "version": "[2.0.1, )"
+            },
+            "FluentResults": {
+              "target": "Package",
+              "version": "[3.16.0, )"
+            },
+            "FluentValidation": {
+              "target": "Package",
+              "version": "[11.11.0, )"
+            },
+            "FluentValidation.AspNetCore": {
+              "target": "Package",
+              "version": "[11.3.0, )"
+            },
+            "MediatR": {
+              "target": "Package",
+              "version": "[12.3.0, )"
+            },
+            "MediatR.Extensions.Microsoft.DependencyInjection": {
+              "target": "Package",
+              "version": "[11.1.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/lib/dotnet/sdk/8.0.110/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/home/smumo/Projects/stockapp/stockapp.africa/LearnCleanArchtecture/StockApp.Contracts/StockApp.Contracts.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/home/smumo/Projects/stockapp/stockapp.africa/LearnCleanArchtecture/StockApp.Contracts/StockApp.Contracts.csproj",
+        "projectName": "StockApp.Contracts",
+        "projectPath": "/home/smumo/Projects/stockapp/stockapp.africa/LearnCleanArchtecture/StockApp.Contracts/StockApp.Contracts.csproj",
+        "packagesPath": "/home/smumo/.nuget/packages/",
+        "outputPath": "/home/smumo/Projects/stockapp/stockapp.africa/LearnCleanArchtecture/StockApp.Contracts/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/home/smumo/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/lib/dotnet/sdk/8.0.110/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/home/smumo/Projects/stockapp/stockapp.africa/LearnCleanArchtecture/StockApp.Domain/StockApp.Domain.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/home/smumo/Projects/stockapp/stockapp.africa/LearnCleanArchtecture/StockApp.Domain/StockApp.Domain.csproj",
+        "projectName": "StockApp.Domain",
+        "projectPath": "/home/smumo/Projects/stockapp/stockapp.africa/LearnCleanArchtecture/StockApp.Domain/StockApp.Domain.csproj",
+        "packagesPath": "/home/smumo/.nuget/packages/",
+        "outputPath": "/home/smumo/Projects/stockapp/stockapp.africa/LearnCleanArchtecture/StockApp.Domain/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/home/smumo/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "ErrorOr": {
+              "target": "Package",
+              "version": "[2.0.1, )"
+            },
+            "MediatR.Contracts": {
+              "target": "Package",
+              "version": "[2.0.1, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/lib/dotnet/sdk/8.0.110/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/home/smumo/Projects/stockapp/stockapp.africa/LearnCleanArchtecture/StockApp.Infrastructure/StockApp.Infrastructure.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/home/smumo/Projects/stockapp/stockapp.africa/LearnCleanArchtecture/StockApp.Infrastructure/StockApp.Infrastructure.csproj",
+        "projectName": "StockApp.Infrastructure",
+        "projectPath": "/home/smumo/Projects/stockapp/stockapp.africa/LearnCleanArchtecture/StockApp.Infrastructure/StockApp.Infrastructure.csproj",
+        "packagesPath": "/home/smumo/.nuget/packages/",
+        "outputPath": "/home/smumo/Projects/stockapp/stockapp.africa/LearnCleanArchtecture/StockApp.Infrastructure/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/home/smumo/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "/home/smumo/Projects/stockapp/stockapp.africa/LearnCleanArchtecture/StockApp.Application/StockApp.Application.csproj": {
+                "projectPath": "/home/smumo/Projects/stockapp/stockapp.africa/LearnCleanArchtecture/StockApp.Application/StockApp.Application.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[8.0.6, )"
+            },
+            "Microsoft.AspNetCore.Identity.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[8.0.6, )"
+            },
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[8.0.6, )"
+            },
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[8.0.6, )"
+            },
+            "Microsoft.EntityFrameworkCore.Relational": {
+              "target": "Package",
+              "version": "[8.0.6, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[8.0.6, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[8.0.6, )"
+            },
+            "Microsoft.Extensions.Options.ConfigurationExtensions": {
+              "target": "Package",
+              "version": "[8.0.0, )"
+            },
+            "Microsoft.VisualStudio.Web.CodeGeneration.Design": {
+              "target": "Package",
+              "version": "[8.0.2, )"
+            },
+            "Pomelo.EntityFrameworkCore.MySql": {
+              "target": "Package",
+              "version": "[8.0.2, )"
+            },
+            "Pomelo.EntityFrameworkCore.MySql.Json.Microsoft": {
+              "target": "Package",
+              "version": "[8.0.2, )"
+            },
+            "System.Text.Json": {
+              "target": "Package",
+              "version": "[8.0.3, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/lib/dotnet/sdk/8.0.110/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/home/smumo/Projects/stockapp/stockapp.africa/LearnCleanArchtecture/Tests/MyApp.ControllersApi.Test/MyApp.ControllersApi.Test.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/home/smumo/Projects/stockapp/stockapp.africa/LearnCleanArchtecture/Tests/MyApp.ControllersApi.Test/MyApp.ControllersApi.Test.csproj",
+        "projectName": "MyApp.ControllersApi.Test",
+        "projectPath": "/home/smumo/Projects/stockapp/stockapp.africa/LearnCleanArchtecture/Tests/MyApp.ControllersApi.Test/MyApp.ControllersApi.Test.csproj",
+        "packagesPath": "/home/smumo/.nuget/packages/",
+        "outputPath": "/home/smumo/Projects/stockapp/stockapp.africa/LearnCleanArchtecture/Tests/MyApp.ControllersApi.Test/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/home/smumo/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "/home/smumo/Projects/stockapp/stockapp.africa/LearnCleanArchtecture/StockApp.Api/StockApp.Api.csproj": {
+                "projectPath": "/home/smumo/Projects/stockapp/stockapp.africa/LearnCleanArchtecture/StockApp.Api/StockApp.Api.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "Microsoft.NET.Test.Sdk": {
+              "target": "Package",
+              "version": "[17.3.2, )"
+            },
+            "coverlet.collector": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[3.1.2, )"
+            },
+            "xunit": {
+              "target": "Package",
+              "version": "[2.4.2, )"
+            },
+            "xunit.runner.visualstudio": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.4.5, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/lib/dotnet/sdk/8.0.110/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
